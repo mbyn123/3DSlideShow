@@ -41,9 +41,9 @@ const render = (intal) => {
         len = source.length;
 
     // 控制slide样式
-    let temp1 = step - 2, // 3
-        temp2 = step - 1, // 4
-        temp3 = step, // 0
+    let temp1 = step - 2, // -1
+        temp2 = step - 1, // 0
+        temp3 = step, // 1
         temp4 = step + 1, // 2
         temp5 = step + 2; // 3
 
