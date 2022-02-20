@@ -18,7 +18,7 @@ const automove = () => {
             step = 0
         }
         render()
-    }, 2000);
+    }, 3000);
 }
 
 
@@ -161,8 +161,8 @@ delay(500).then(() => {
     automove()
 
     // 控制轮播的暂停、开始
-    container.onmouseenter = () => clearInterval(timer)
-    container.onmouseleave = () => automove()
+    wrapper.onmouseenter = () => clearInterval(timer)
+    wrapper.onmouseleave = () => automove()
 
     // 左右切换
     prev.onclick = throttle(() => {
